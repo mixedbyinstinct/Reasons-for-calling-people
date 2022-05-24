@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en_us">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <head>
+    <title>title</title>
+  </head>
+  <div class="container"
+  <body>
+    <div class="header">
+    <h1>Reasons for Calling People</h1>
+    </div>
+    <p>
+      <br>Tool for helping remember why you called people.
+      <br>Enter a name in the name box, a reason in the reason box, and hit + to save.
+      <br>Hit one of the number buttons to display the associated name/reason. Capable of
+      <br>storing up to 8 names and 8 reasons.
+    </p>
+        <div class="field-group">
+          <div class="input-group">
+            Name: 
+            <input id="nameField" type="text"> 
+          <br>
+            Reason: 
+            <input id="reasonField" type="text">
+          </div>
+          <div class="input-group">
+            <button id="submit">+</button> 
+            <!--<button id="subReason">+</button>-->
+          </div>
+        </div>
+      <div class="input-group">
+        <div class="btn-group">
+          <button id="one">1</button>
+          <button id="two">2</button>
+        </div>
+        <div class="btn-group">
+          <button id="three">3</button>
+          <button id="four">4</button>
+        </div>
+        <div class="btn-group">
+          <button id="five">5</button>
+          <button id="six">6</button>
+        </div>
+        <div class="btn-group">
+          <button id="seven">7</button>
+          <button id="eight">8</button>
+        </div> 
+      <div class="output-field" id="backdrop">
+        <div class="cust-span">
+        <span>person:</span><span id="person"></span>
+        </div>
+        
+        <div class="cust-span">
+      <span>reason:</span> <span id="reason"></span>
+        </div>
+   <!--  <div class="btn-group">
+      <button id="clear">clear</button>
+    </div>-->
+      </div>
+    <div class="btn-group">
+      <style>
+        width: device-width;
+      </style>
+      <button id="clear">clear</button>
+    </div>
+  </body>
+  </div>
+  <script type="text/javascript" src="index.js"></script>
+</html>
